@@ -71,6 +71,20 @@ function GeneralPane_create() {
    generalPane.insname = "IFS";
    return generalPane;	
 }
+function getSofTagList( ins, recipename ) {
+    var stateStore = null;
+    if ( ins == "IRDIS" ) {
+        stateStore = new dojo.data.ItemFileReadStore({
+            url: "recipes_irdis.json"
+        });
+    }
+    if ( ins == "IFS" ) {
+        stateStore = new dojo.data.ItemFileReadStore({
+            url: "recipes_ifs.json"
+        });
+    }
+    var list = stateStore.fetch({ query:{ name: recipename }, onComplete: fillSofTagList });    
+}
 
 function esorex_test_input() {
 	var accordionPane = new dijit.layout.AccordionContainer({style: "width: 800px; height: 600px;"});
