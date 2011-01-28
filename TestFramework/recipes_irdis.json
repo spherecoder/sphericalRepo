@@ -1,0 +1,11 @@
+{
+  identifier:"name",
+  label: "name",
+  items: [
+    {name:"sph_ird_master_dark", label:"sph_ird_master_dark"},
+    {name:"sph_ird_instrument_flat", label:"sph_ird_instrument_flat"},
+    {name:"sph_ird_gain", label:"sph_ird_gain"},
+    {name:"sph_ird_ron", label:"sph_ird_ron"},
+    {name:"sph_ird_science_dbi", label:"sph_ird_science_dbi"}
+  ]
+}

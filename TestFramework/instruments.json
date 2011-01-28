@@ -1,0 +1,9 @@
+{
+  identifier:"name",
+  label: "name",
+  items: [
+    {name:"IFS", label:"IFS"},
+    {name:"IRDIS", label:"IRDIS"},
+    {name:"ZIMPOL", label:"ZIMPOL"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  identifier:"name",
+  label: "name",
+  items: [
+    {name:"sph_ifs_master_dark", label:"sph_ifs_master_dark", tags:["IFS_DARK_RAW"]},
+    {name:"sph_ifs_master_detector_flat", label:"sph_ifs_master_detector_flat",tags:["IFS_DARK_CALIB"]},
+    {name:"sph_ifs_spectra_positions", label:"sph_ifs_spectra_positions",tags:["IFS_DARK_CALIB"]},
+    {name:"sph_ifs_gain", label:"sph_ifs_gain",tags:["IFS_DARK_CALIB"]},
+    {name:"sph_ifs_ron", label:"sph_ifs_ron",tags:["IFS_DARK_CALIB"]},
+    {name:"sph_ifs_science_dr", label:"sph_ifs_science_dr",tags:["IFS_DARK_CALIB"]}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  identifier:"abbreviation",
+  label: "name",
+  items: [
+    {name:"Markus Feldt", label:"Markus Feldt", abbreviation:"MFe"},
+    {name:"Silvano Desidera", label:"Silvano Desidera", abbreviation:"SDe"},
+    {name:"Maud Langlois", label:"Maud Langlois", abbreviation:"Mla"}
+  ]
+}
