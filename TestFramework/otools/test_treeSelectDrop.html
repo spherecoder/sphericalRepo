@@ -7,12 +7,32 @@
 <style type="text/css">
 @import "http://ajax.googleapis.com/ajax/libs/dojo/1.5/dijit/themes/tundra/tundra.css";
 </style>
-<script type="text/javascript" src="lib/dojo/dojo.js" djConfig="parseOnLoad: true">
+<script type="text/javascript" src="../lib/dojo/dojo.js" djConfig="parseOnLoad: true">
 </script>
 <link rel="stylesheet" href= />
 <script type="text/javascript" src="otools.js"></script>
 <script type="text/javascript" src="treeSelectDrop.js"></script>
-
+<script type="text/javascript">
+	dojo.addOnLoad(function() {
+	var cats = [{
+		name: "a"
+	}, 
+	{
+		name: "b"
+	}];
+    var ts = treeSelectDrop_new("Aha", "../countries.json", {type: 'continent'},"rooty",cats);
+    var accordionPane = new dijit.layout.AccordionContainer({style: "width: 800px; height: 600px;"});
+    var generalPane = new dijit.layout.ContentPane({title: "General", content: "Hello!"});
+    var sofPane =  new dijit.layout.ContentPane({title: "GSOFPane", content: "Hello!"});
+    var paramPane = new dijit.layout.ContentPane({title: "Parameters", content: "Hello!"});
+    accordionPane.addChild(generalPane);
+    accordionPane.addChild(sofPane);
+    accordionPane.addChild(paramPane);
+    accordionPane.addChild(ts);
+    document.body.appendChild(accordionPane.domNode);
+    accordionPane.startup();   
+    });
+</script>
 </head>
 <body class="tundra">
 	<div id="targetID" style="position: absolute; left: 50px; top: 50px;">I get replaced</div>
