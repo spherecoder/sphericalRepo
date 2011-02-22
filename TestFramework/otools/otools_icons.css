@@ -1,0 +1,36 @@
+.otoolsCloseIcon {
+	background-image: url('images/cancel_48.png'); /* editor icons sprite image for the enabled state */
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.otoolsOpenIcon {
+	background-image: url('images/accepted_48.png'); /* editor icons sprite image for the enabled state */
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.otoolsEditIcon {
+	background-image: url('images/app_48.png'); /* editor icons sprite image for the enabled state */
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.otoolsBrowseIcon {
+	background-image: url('images/tabs_48.png'); /* editor icons sprite image for the enabled state */
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.otoolsCreateIcon {
+	background-image: url('images/database_add_48.png'); /* editor icons sprite image for the enabled state */
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.nooff { background-position: 0px; }
