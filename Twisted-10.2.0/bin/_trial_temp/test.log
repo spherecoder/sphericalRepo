@@ -1,0 +1,8 @@
+2011-05-12 23:22:18+0200 [-] Log opened.
+2011-05-12 23:22:18+0200 [-] --> twyst.core.test.TwystServerTest.TwystServerTest.testSendFile <--
+2011-05-12 23:22:18+0200 [-] twisted.internet.protocol.Factory starting on 8007
+2011-05-12 23:22:18+0200 [-] Starting factory <twisted.internet.protocol.Factory instance at 0x100ec20>
+2011-05-12 23:22:18+0200 [-] Starting factory <twisted.internet.endpoints._WrappingFactory instance at 0x100ee60>
+2011-05-12 23:22:18+0200 [-] (TCP Port 8007 Closed)
+2011-05-12 23:22:18+0200 [-] Stopping factory <twisted.internet.protocol.Factory instance at 0x100ec20>
+2011-05-12 23:22:18+0200 [-] (TCP Port None Closed)
