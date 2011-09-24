@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+body { background-color: black }
+
+/* The main title image size is 1312 x 236 pixels. */
+ 
+/* The oval image is 1114 pixels times 807 pixels */ 
+div#ovalim {
+	position: relative;
+	/* Need to leave halv the titleim width in left to center oval image */ 
+	left: 50px;
+	width: 900px;
+}
+img#titleim {
+	width: 1000px;
+}
+img#ovalim {
+	width: 900px;
+}
+img#line_to_small_astro {
+	position: absolute;
+}
+img#line_to_small_me {
+	position: absolute;
+}
+img#line_to_small_cv {
+	position: absolute;
+}
+img#line_to_small_blog {
+	position: absolute;
+}
+/* The small images are 200 pixels times 150 pixels */
+div#center_middle {
+	position: relative;
+	left: 100px;
+}
+div#small_astro {
+	position: absolute;
+	left: 0px;	
+	top: 750px;
+}
+
+div#small_blog {
+	position: absolute;
+	left: 250px;
+	top: 900px;
+}
+
+div#small_cv {
+	position: absolute;
+	left: 550px;
+	top: 900px;
+}
+
+div#small_me {
+	position: absolute;
+	left: 875px;
+	top: 750px;
+}
+
