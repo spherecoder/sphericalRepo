@@ -30,15 +30,16 @@ class FileReceiver(TwystObject,Protocol):
     def connectionLost(self,reason=None):
         if self.file:
             self.file.close()
+
         
     def sendSendRequest(self,subdir,filename):
         self.transport.write("GETFILE" + subdir + FileButler.PATH_SEP + filename) 
                    
     def dataReceived(self,data):
-        if data.sartswith("PLEASERECEIVE"):
-            subdir,filename = data[13:].split(FileButler.PATH_SEP) 
-            self.transport.write("GETFILE")
+        if self.file:
+            if self.file.closed:
+                filenew = open(self.file.name,"a")
+                self.file = filenew
+            self.file.write(data)
         else:
-            if self.file:
-                self.file.write(data)
-            self.transport.write("GETFILE " + self.filename)
+            print "No file open"
