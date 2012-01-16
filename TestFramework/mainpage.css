@@ -1,0 +1,19 @@
+#testcaseBrowser_mainPane {
+	background: white;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+#initialSelect_mainPane {
+	position: relative;
+	top: 300px;
+}
+#treeSelect_mainPane {
+	position: absolute;
+	background: white;
+	top: 150px;
+	left: 400px;
+}
+body {
+	background: white url(resources/chrome-ball.jpg) no-repeat center top;
+}

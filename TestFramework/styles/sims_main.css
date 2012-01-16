@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+body { 
+ background-color: black; 
+ color: white; 
+ font-size: medium;
+}
+
+.pySimInterface_mainPage {
+	width: 800px;
+	height: 800px;
+	background-color: white;
+	color: #333333;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+
+div#top_bar { 
+ background-image: url("http://localhost/~ole/mine/resources/images/SphereLogoLongAndBig25f.png");
+ height: 120px; width: 800px;
+}
+
+.pySimInterface_mainPage_simTitle {
+	font-size: x-large;
+	padding-top: 20px;
+	text-align: center;
+	height: 60px;
+	background-color: #999966;
+}
+.pySimInterface_mainMenu {
+	width: 150px;
+	height: 600px;
+	padding-left: 10px;
+	background-color: #F5F5F5;
+}
+.pySimInterface_mainContent {
+	position: absolute;
+	left: 240px;
+	top: 220px;
+	width: 650px;
+	height: 800px;
+}
+
+div#pySimInterface_mainTabContainer {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.generalPane_input {
+    line-height: 20px;
+	font-size: medium;
+}
+.generalPane_textfield {
+	line-height: 20px;
+	font-size: medium;
+}
+.submitButtons {
+	top: 20px;
+	margin-right: 50px;
+	text-align: right;
+}
